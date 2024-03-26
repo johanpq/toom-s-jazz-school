@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@media screen and (min-width: 960px) {
+  body header {
+    flex-direction: row;
+    justify-content: space-between !important;
+  }
+  body header .TomHighlight {
+    text-align: start;
+  }
+  body header .jazz {
+    display: none;
+  }
+  body header .school {
+    display: none;
+  }
+  body header nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  body header button {
+    width: 0%;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  gap: 15px;
+  padding: 53px;
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+body header .TomHighlight {
+  font-size: 40px;
+  font-weight: 900;
+}
+body header .jazz {
+  font-size: 32px;
+  font-weight: 900;
+}
+body header .school {
+  font-size: 20px;
+  font-weight: 900;
+}
+body header nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+body header button {
+  height: 48px;
+  width: 50%;
+  padding: 10px;
+  background-color: orange;
+  box-shadow: 4px 4px 0px 0px #1E1E1E;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+body main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+body main img {
+  margin: auto;
+  width: 100%;
+}
+body main .testemunhal {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 50px 0px 0px 50px;
+}
+body main .testemunhal h2 {
+  font-size: 48px;
+}
+body main .testemunhal h2 .highlight {
+  color: #ED4D1B;
+}
+body main .testemunhal img {
+  position: relative;
+  top: -50px;
+}
+body main p {
+  margin: 30px 0px 0px 50px;
+}
+body main button {
+  cursor: pointer;
+  background-color: orange;
+  box-shadow: 4px 4px 0px 0px #1E1E1E;
+  height: 48px;
+  width: 30%;
+  margin: 30px 0px 0px 50px;
+}
+body main div {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+}
+body main div button {
+  padding: 15px;
+  width: 100%;
+}
+body main div img {
+  position: relative;
+  left: 10px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+body main .courses-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+}
+body main .courses-section .drum-card {
+  display: flex;
+  height: 306px;
+  width: 20em;
+  flex-direction: column;
+  background: #FF9A3C;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  padding: 30px 0px 0px 35px;
+  margin-left: 30px;
+  gap: 5px;
+}
+body main .courses-section .drum-card img {
+  margin: 0px;
+  width: 15%;
+}
+body main .courses-section .drum-card p {
+  margin: 10px;
+}
+body main .courses-section .drum-card .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+body main .courses-section .drum-card .description {
+  font-size: 16px;
+  font-weight: 500;
+}
+body main .courses-section .drum-card .arrow {
+  position: relative;
+  top: 35px;
+  width: 64px;
+  padding-right: 8px;
+  align-self: flex-end;
+}
+body main .courses-section .sax-card {
+  display: flex;
+  height: 306px;
+  width: 20em;
+  flex-direction: column;
+  background: #ED4D1B;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  padding: 30px 0px 0px 35px;
+  gap: 5px;
+}
+body main .courses-section .sax-card img {
+  margin: 0px;
+  width: 15%;
+}
+body main .courses-section .sax-card p {
+  margin: 10px;
+}
+body main .courses-section .sax-card .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+body main .courses-section .sax-card .description {
+  font-size: 16px;
+  font-weight: 500;
+}
+body main .courses-section .sax-card .arrow {
+  position: relative;
+  top: 35px;
+  width: 64px;
+  padding-right: 8px;
+  align-self: flex-end;
+}
+body main .courses-section .theory-card {
+  display: flex;
+  height: 306px;
+  width: 20em;
+  flex-direction: column;
+  background: #FF9A3C;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  padding: 30px 0px 0px 35px;
+  margin-left: 30px;
+  gap: 5px;
+}
+body main .courses-section .theory-card img {
+  margin: 0px;
+  width: 15%;
+}
+body main .courses-section .theory-card p {
+  margin: 10px;
+}
+body main .courses-section .theory-card .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+body main .courses-section .theory-card .description {
+  font-size: 16px;
+  font-weight: 500;
+}
+body main .courses-section .theory-card .arrow {
+  position: relative;
+  top: 35px;
+  width: 64px;
+  padding-right: 8px;
+  align-self: flex-end;
+}
+body main .courses-section .paino-card {
+  display: flex;
+  height: 306px;
+  width: 20em;
+  flex-direction: column;
+  background: #ED4D1B;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  padding: 30px 0px 0px 35px;
+  gap: 5px;
+}
+body main .courses-section .paino-card img {
+  margin: 0px;
+  width: 15%;
+}
+body main .courses-section .paino-card p {
+  margin: 10px;
+}
+body main .courses-section .paino-card .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+body main .courses-section .paino-card .description {
+  font-size: 16px;
+  font-weight: 500;
+}
+body main .courses-section .paino-card .arrow {
+  position: relative;
+  top: 35px;
+  width: 64px;
+  padding-right: 8px;
+  align-self: flex-end;
+}
+body main span {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 85px auto 10px auto;
+}
+body main span .highlight {
+  color: #ED4D1B;
+}
+body main .know-curse {
+  cursor: pointer;
+  background-color: #ED4D1B;
+  box-shadow: 4px 4px 0px 0px #1E1E1E;
+  height: 48px;
+  width: fit-content;
+  padding: 15px;
+  margin: 0px auto 100px auto;
+}
+body footer {
+  border-width: 0px, 1px, 0px, 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 36px 0px 0px 53px;
+}
+body footer .col1 {
+  text-align: left;
+}
+body footer .col1 .TomHighlight {
+  font-size: 40px;
+  font-weight: 900;
+}
+body footer .col1 .jazz-and-school {
+  font-size: 20px;
+  font-weight: 900;
+}
+body footer .col1 p {
+  font-weight: 500;
+  padding-top: 36px;
+}
+body footer .col2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+body footer .col2 ul {
+  list-style: none;
+}
+body footer .col2 ul li {
+  padding-top: 23px;
+  cursor: pointer;
+}
+body footer .col3 {
+  padding-top: 30px;
+}
+body footer .col3 p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+body footer .col3 input {
+  padding: 7px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px #000000;
+  margin-bottom: 15px;
+}
+body footer .col3 button {
+  cursor: pointer;
+  background: #ED4D1B;
+  padding: 10px;
+  box-shadow: 4px 4px 0px 0px #1E1E1E;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
